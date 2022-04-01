@@ -37,4 +37,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // WS2812 RGB LED strip input and number of LEDs
 #define RGB_DI_PIN D4
-#define RGBLED_NUM 12
+#define RGBLED_NUM 15
+
+#define RGBLIGHT_ANIMATIONS
+#define RGBLIGHT_HUE_STEP 8
+#define RGBLIGHT_SAT_STEP 8
+#define RGBLIGHT_VAL_STEP 8
+#define RGBLIGHT_LIMIT_VAL 255
+#define RGBLIGHT_SPLIT
